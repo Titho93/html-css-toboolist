@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 80px;
+}
+
+.presentation{
+  padding-top: 15px;
+  padding-left: 20px;
+  font-size: 40px;
+}
+
+.presentation img{
+  vertical-align: middle;
+}
+
+main{
+  background-color: #F6F8F9;
+}
+
+.contenitor{
+  width: 90%;
+  max-width: 1200px;
+}
