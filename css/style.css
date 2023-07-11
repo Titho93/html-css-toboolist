@@ -27,11 +27,12 @@ main{
   background-color: white;
   margin: 40px auto;
   width: 90%;
+  height: 1500px;
   max-width: 900px;
 }
 
 .selection{
-  margin-bottom: ;
+  border-bottom: 3px solid #F6F8F9;
   height: 60px;
   background-color: white;
   position: relative;
