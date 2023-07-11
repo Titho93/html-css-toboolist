@@ -5,7 +5,7 @@
 }
 
 body{
-  background-color: #CAD0D5;
+  background-color: #F6F8F9;
 }
 
 header{
@@ -61,3 +61,16 @@ button{
   color: #CAD0D5;
 }
 
+ul{
+  margin-left: 60px;
+  margin-top: 50px;
+  list-style: none;
+  display: block;
+  font-size: 20px;
+}
+
+.check{
+  border: 1px solid green;
+  border-radius: 50%;
+  color: green;
+}
