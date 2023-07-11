@@ -63,7 +63,7 @@ button{
 
 ul{
   margin-left: 60px;
-  margin-top: 50px;
+  margin-top: 30px;
   list-style: none;
   display: block;
   font-size: 20px;
@@ -73,4 +73,70 @@ ul{
   border: 1px solid green;
   border-radius: 50%;
   color: green;
+}
+
+.cross{
+  border: 1px solid red;
+  border-radius: 50%;
+  color: red;
+}
+
+li.editorial::after{
+  content: 'Editorial';
+  color: white;
+  font-size: 11px;
+  margin-left: 7px;
+  background-color: #44AAEA;
+  padding: 5px;
+  border-radius: 20%;
+}
+
+li.Q1-goals::after{
+  content: 'Q1 goals';
+  color: white;
+  font-size: 11px;
+  margin-left: 7px;
+  background-color: #9B71E3;
+  padding: 5px;
+  border-radius: 20%;
+}
+
+li.recruiting::after{
+  content: 'Recruitings';
+  color: white;
+  font-size: 11px;
+  margin-left: 7px;
+  background-color: #63BFA8;
+  padding: 5px;
+  border-radius: 20%;
+}
+
+li.mobile::after{
+  content: 'Mobile';
+  color: white;
+  font-size: 11px;
+  margin-left: 7px;
+  background-color: #F19D32;
+  padding: 5px;
+  border-radius: 20%;
+}
+
+li.website::after{
+  content: 'Website';
+  color: white;
+  font-size: 11px;
+  margin-left: 7px;
+  background-color: #D6609F;
+  padding: 5px;
+  border-radius: 20%;
+}
+
+li.sales::after{
+  content: 'Sales';
+  color: white;
+  font-size: 11px;
+  margin-left: 7px;
+  background-color: #AFC825;
+  padding: 5px;
+  border-radius: 20%;
 }
